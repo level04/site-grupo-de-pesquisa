@@ -1,2 +1,2 @@
 # site-grupo-de-pesquisa
-Site feito pelis trainees para teste do processo seletivo
+Site feito pelos trainees para teste do processo seletivo
