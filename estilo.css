@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Configuração rodapé */
+
+.footer {
+    background-color: #E0E0E2;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.contact-info h2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.contact-info address {
+    font-size: 12px;
+}
+
+#copyright {
+    opacity: 0.6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+}
