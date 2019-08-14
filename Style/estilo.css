@@ -5,16 +5,22 @@
 .footer {
     background-color: whitesmoke;
     margin-top: auto;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     padding-top: 15px;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a:link {
+    color:  rgb(206, 160, 160);
 }
 
 .nav-item {
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .contact-info h2 {
@@ -33,3 +39,63 @@
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
+
+/*Configuração Quem somos*/
+
+#img-quem-somos {
+    padding: 25px;
+}
+
+#quem-somos {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+
+#quem-somos h1 {
+    color: #C44545;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+#quem-somos p {
+    color: black;
+    opacity: 0.8;
+}
+
+/*Configuração Linhas de pesquisa*/
+
+#section-pesquisas h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top: 1px solid #26619c;
+    font-size: 30px;
+    color: #C44545;
+}
+
+#section-pesquisas {
+    font-family: 'Roboto', sans-serif;
+}
+
+#pesquisa h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 35px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+#botao {
+    margin-left: 37%;
+}
+
+.btn.btn-primary {
+    color: white;
+    background-color: #26619c;
+    border-color: #26619c;
+}
+
+.modal-header {
+    background-color:#C44545;
+}
+
