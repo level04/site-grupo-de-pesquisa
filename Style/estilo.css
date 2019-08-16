@@ -107,3 +107,23 @@ a:link {
     border-radius: 3%;
     padding: 3px;
 }
+
+/*Estilo pagina membros*/
+#membros {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-group button:hover {
+    background-color: #C44545;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-largura {
+    max-width: 19 rem;
+  }
