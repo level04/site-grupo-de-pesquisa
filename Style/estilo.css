@@ -118,6 +118,20 @@ a:link {
     background-color: #cccdd0;
 }
 
+/*Estilo aplicado para filtrar membros*/
 .container-fluid.pb-5.bg-light {
     margin-top: 10px;
+  }
+
+  .card {
+      float: left;
+      display: none!important;
+  }
+
+  .show {
+      display: block!important;
+  }
+
+  .btn.active {
+    background-color: #cccdd0!important;
   }
