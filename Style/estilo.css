@@ -15,7 +15,7 @@
 }
 
 a:link {
-    color:  rgb(206, 160, 160);
+    color: rgb(206, 160, 160);
 }
 
 .nav-item {
@@ -99,7 +99,7 @@ a:link {
 }
 
 .modal-header {
-    background-color:#C44545;
+    background-color: #C44545;
 }
 
 .caixa-pesquisa {
@@ -121,17 +121,17 @@ a:link {
 /*Estilo aplicado para filtrar membros*/
 .container-fluid.pb-5.bg-light {
     margin-top: 10px;
-  }
+}
 
-  .card {
-      float: left;
-      display: none!important;
-  }
+.card {
+    float: left;
+    display: none !important;
+}
 
-  .show {
-      display: block!important;
-  }
+.show {
+    display: block !important;
+}
 
-  .btn.active {
-    background-color: #cccdd0!important;
-  }
+.btn.active {
+    background-color: #cccdd0 !important;
+}
