@@ -111,19 +111,13 @@ a:link {
 /*Estilo pagina membros*/
 #membros {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .btn-group button:hover {
-    background-color: #C44545;
+    background-color: #cccdd0;
 }
 
-.card-posicao-imagem {
-    object-fit: cover;
-    height: 200px;
-  }
-  
-  .card-largura {
-    max-width: 19 rem;
+.container-fluid.pb-5.bg-light {
+    margin-top: 10px;
   }
