@@ -99,3 +99,8 @@ a:link {
     background-color:#C44545;
 }
 
+.caixa-pesquisa {
+    border: 2px solid #26619c;
+    border-radius: 3%;
+    padding: 3px;
+}
