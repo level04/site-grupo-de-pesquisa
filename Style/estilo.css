@@ -107,3 +107,23 @@ a:link {
     border-radius: 3%;
     padding: 3px;
 }
+
+/*Videos Produzidos*/
+.carousel-inner {
+    padding: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#videos-produzidos h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top: 1px solid #26619c;
+    font-size: 30px;
+    color: #C44545;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
+}
