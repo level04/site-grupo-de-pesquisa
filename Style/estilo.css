@@ -165,3 +165,14 @@ a:link {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.tipo-contribuicao {
+    text-align: center;
+    font-size: 30px;
+    color: #C44545;
+}
+
+.contribuicao {
+    border-top: 0.5px solid #26619c!important;
+    border-bottom: 0.5px solid #26619c!important;
+}
