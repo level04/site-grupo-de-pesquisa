@@ -1,39 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="Style/estilo.css"/> 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style/estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #26619c;">  
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #26619c;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavBar" aria-controls="conteudoNavBar" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                    
+
             <div class="collapse navbar-collapse" id="conteudoNavBar">
-                <a class="navbar-brand"><img src=Assets/navbar-logo.png></a>      
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Início </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="membros.html">Membros </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contribuicoes.html">Contribuições </a>
-                        </li>
-                    </ul>
+                <a class="navbar-brand"><img src=Assets/navbar-logo.png> </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="membros.html">Membros </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contribuicoes.html">Contribuições </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-  
 
-    
+    <!--Inicio das constribuicoes do grupo de pesquisa -->
+    <main>
+        <div class="container" id="contribuicoes">
+            <div class="row justify-content-md-center">
+                <div class="col eventos">
+                    <h3>Eventos</h3>
+                    <ul class="list-group list-group-flush timeline">
+                        <li class="list-group-item">
+                            <p class="p-data">7 de junho de 2019</p>
+                            <p class="p-titulo">Topological graphs and the Four Color Theorem (Palestra)</p>
+                            <p class="p-membro">Daniele Nantes (MAT - UnB)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">2 de maio de 2018</p>
+                            <p class="p-titulo">Relating Process Languages for Security and Communication Correctness (Palestra)</p>
+                            <p class="p-membro">Daniele Nantes (MAT - UnB)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">16, 17 e 18 de abril de 2018</p>
+                            <p class="p-titulo"> PVS: Uma Introdução (Minicurso)</p>
+                            <p class="p-membro">Andréia Borges Avelar (UnB)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data"> 19 de outubro de 2017</p>
+                            <p class="p-titulo">Statically checking termination (Palestra)</p>
+                            <p class="p-membro">Mauricio Ayala (CIC/MAT - UnB)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">17 de maio de 2017</p>
+                            <p class="p-titulo">From the Foundation of Mathematics to the Birth of Computation (Palestra)</p>
+                            <p class="p-membro">Fairouz Kamareddine (ULTRA Group, Edimburgo)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col publicacoes">
+                    <h3>Publicações</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p class="p-data">18 de agosto de 2019</p>
+                            <p class="p-titulo">Nam ultrices eros id arcu faucibus, et imperdiet</p>
+                            <p class="p-membro">Venenatis Lorem (UFG)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">18 de agosto de 2019</p>
+                            <p class="p-titulo">Nulla consectetur, nibh et hendrerit egestas, eros eros fermentum enim</p>
+                            <p class="p-membro">Vestibulum Ante (IFG)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">18 de agosto de 2019</p>
+                            <p class="p-titulo">Vestibulum imperdiet ex non velit fringilla sodales aliquam mauris diam</p>
+                            <p class="p-membro">Lobortis Iaculis (UEG)</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="p-data">18 de agosto de 2019</p>
+                            <p class="p-titulo">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                            <p class="p-membro">Donec Pharetra Leo (XYZ)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer class="footer" style="background-color: #26619c">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -43,22 +105,24 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="contact-info" id="contact-info">
                         <h2>Contato</h2>
-                            <address>
-                            E-mail: <a href="mailto:jlucas@level5jr.com.br">jlucas@level5jr.com.br</a><br> 
+                        <address>
+                            E-mail: <a
+                                href="mailto:jlucas@level5jr.com.br">jlucas@level5jr.com.br</a><br>
                             Telefone: +55 (62) 9 8597-6528<br>
-                            </address>
-                                
+                        </address>
+
                         <h2>Endereço</h2>
-                            <address>
+                        <address>
                             Rua Street 4, n°555<br>
-                            Centro,<br> 
-                            Inhumas, GO<br> 
+                            Centro,<br>
+                            Inhumas, GO<br>
                             CEP 75.400-000<br>
-                            </address>
+                        </address>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30624.070693053145!2d-49.51129616751249!3d-16.373512251119816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e786ed04099b3%3A0x45d96d31fc68c963!2sInhumas%2C+GO%2C+75400-000!5e0!3m2!1spt-BR!2sbr!4v1565661295151!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30624.070693053145!2d-49.51129616751249!3d-16.373512251119816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e786ed04099b3%3A0x45d96d31fc68c963!2sInhumas%2C+GO%2C+75400-000!5e0!3m2!1spt-BR!2sbr!4v1565661295151!5m2!1spt-BR!2sbr"
+                        width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="row align-items-end">
@@ -72,6 +136,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        
+
 </body>
+
 </html>
