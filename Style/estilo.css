@@ -140,7 +140,16 @@ a:link {
 }
 
 .btn.active {
-    background-color: #cccdd0 !important;
+    background-color: #C44545 !important;
+    box-shadow: none!important;
+}
+
+.btn:hover {
+    background-color: #C44545!important;
+}
+
+.card-link {
+    color: #C44545;
 }
 
 
