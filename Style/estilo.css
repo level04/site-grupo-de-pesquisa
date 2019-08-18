@@ -111,7 +111,6 @@ a:link {
     padding: 3px;
 }
 
-
 /*Estilo pagina membros*/
 
 #membros {
@@ -184,4 +183,24 @@ a:link {
 .contribuicao {
     border-top: 0.5px solid #26619c!important;
     border-bottom: 0.5px solid #26619c!important;
+}
+
+/*Videos Produzidos*/
+.carousel-inner {
+    padding: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#videos-produzidos h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top: 1px solid #26619c;
+    font-size: 30px;
+    color: #C44545;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
 }
