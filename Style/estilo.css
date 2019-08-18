@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* Configuração rodapé */
 
 .footer {
@@ -40,6 +41,7 @@ a:link {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /*Configuração Quem somos*/
 
 #img-quem-somos {
@@ -61,6 +63,7 @@ a:link {
     color: black;
     opacity: 0.8;
 }
+
 
 /*Configuração Linhas de pesquisa*/
 
@@ -108,7 +111,9 @@ a:link {
     padding: 3px;
 }
 
+
 /*Estilo pagina membros*/
+
 #membros {
     text-align: center;
     margin-top: 30px;
@@ -118,7 +123,9 @@ a:link {
     background-color: #cccdd0;
 }
 
+
 /*Estilo aplicado para filtrar membros*/
+
 .container-fluid.pb-5.bg-light {
     margin-top: 10px;
 }
@@ -134,4 +141,27 @@ a:link {
 
 .btn.active {
     background-color: #cccdd0 !important;
+}
+
+
+/*Estilo da pagina de contribuicoes*/
+
+.p-titulo,
+.p-membro,
+.p-data {
+    margin: 0;
+}
+
+.p-membro {
+    font-weight: bold;
+}
+
+.p-data {
+    font-style: italic;
+    text-align: right;
+}
+
+#contribuicoes {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
