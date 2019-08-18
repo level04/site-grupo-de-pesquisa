@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* Configuração rodapé */
 
 .footer {
@@ -15,7 +16,7 @@
 }
 
 a:link {
-    color:  rgb(206, 160, 160);
+    color: rgb(206, 160, 160);
 }
 
 .nav-item {
@@ -40,6 +41,7 @@ a:link {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /*Configuração Quem somos*/
 
 #img-quem-somos {
@@ -61,6 +63,7 @@ a:link {
     color: black;
     opacity: 0.8;
 }
+
 
 /*Configuração Linhas de pesquisa*/
 
@@ -99,11 +102,86 @@ a:link {
 }
 
 .modal-header {
-    background-color:#C44545;
+    background-color: #C44545;
 }
 
 .caixa-pesquisa {
     border: 2px solid #26619c;
     border-radius: 3%;
     padding: 3px;
+}
+
+
+/*Estilo pagina membros*/
+
+#membros {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-group button:hover {
+    background-color: #cccdd0;
+}
+
+
+/*Estilo aplicado para filtrar membros*/
+
+.container-fluid.pb-5.bg-light {
+    margin-top: 10px;
+}
+
+.card {
+    float: left;
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.btn.active {
+    background-color: #C44545 !important;
+    box-shadow: none!important;
+}
+
+.btn:hover {
+    background-color: #C44545!important;
+}
+
+.card-link {
+    color: #C44545;
+}
+
+
+/*Estilo da pagina de contribuicoes*/
+
+.p-titulo,
+.p-membro,
+.p-data {
+    margin: 0;
+}
+
+.p-membro {
+    font-weight: bold;
+}
+
+.p-data {
+    font-style: italic;
+    text-align: right;
+}
+
+#contribuicoes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tipo-contribuicao {
+    text-align: center;
+    font-size: 30px;
+    color: #C44545;
+}
+
+.contribuicao {
+    border-top: 0.5px solid #26619c!important;
+    border-bottom: 0.5px solid #26619c!important;
 }
